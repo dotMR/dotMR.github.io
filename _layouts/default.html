@@ -10,12 +10,20 @@
     <meta name="author" content="{{ site.name }}" />
     <meta name="description" content="{{ site.description }}">
 
+    <!-- <link rel="icon" type="image/png" href="/assets/img/ssbla-ico.png"> -->
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&amp;subset=latin,cyrillic">
+
   </head>
 
   <body>
@@ -28,10 +36,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/workshop">Workshop</a>
-            <a href="{{ site.baseurl }}/resume">Hire Me</a>
-            <a href="{{ site.baseurl }}/me">Me</a>
-            <a href="{{ site.baseurl }}/">Blog</a>
+            <!-- <a{% if page.selected == 'about' %} class='selected'{% endif %} href="{{ site.baseurl }}/">About</a> -->
+            <a {% if page.selected == 'default' %} class='selected'{% endif %} href="{{ site.baseurl }}/">About</a>
+            <a href="http://dotmr.github.io/cv">C.V.</a>
           </nav>
         </header>
       </div>

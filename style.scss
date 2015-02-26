@@ -218,9 +218,15 @@ nav {
     font-size: 16px;
   }
 
+  a.selected {
+    padding: 7px;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    color: $darkGray;
+  }
+
   a {
     margin-left: 20px;
-    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;

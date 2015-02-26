@@ -3,21 +3,6 @@ layout: page
 title: My workshop
 permalink: /workshop/
 ---
-
----
-
-#### TODO
-* Link to resume (in markdown) created from LinkedIn
-* Move project photos from Picasa (serve locally or move to hosted Camlistore?)
-* Choose select few 'notable' projects for more curated view?
-*	camlistore
-	- developing my personal storage system for life
-*	ssbla - "bravely done"
-	- developed electronic drag-inspired race timing system
-	- hold backyard luge race every year
-
----
-
 ##A few personal projects I documented over the last few years
 
 Making [a big wooden screw](https://plus.google.com/photos/115792393894414268922/albums/5714749385460107281?authkey=CMTKuNeQ4bWkjQE)

@@ -1,18 +1,10 @@
 ---
 layout: page
-title: Mario Russo
+title: (everything) Engineer
 permalink: /resume/
 ---
 
----
-
-#### TODO
-* post email address as an image?
-
----
-Everything Engineer
-
-mail(DOT)mr(AT)gmail(DOT)com
+<img src="{{ site.baseurl }}/images/email-address.png" alt="email" style=""/>
 
 ###Summary
 I am a designer, builder, and problem solver.

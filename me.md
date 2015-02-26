@@ -1,11 +1,16 @@
 ---
 layout: page
-title: About Me
-permalink: /me/
+permalink: /me
+selected: about
 ---
->		All I want to be
->		someone that makes new things
->		and thinks about them.
->		-- John Maeda
 
-My name is Mario Russo. I live in Berlin, Germany. I am a designer, builder, and problem solver. By trade I am a software engineer, but I've also worked professionally as a metal fabricator, blacksmith, and sculptor.
+<!-- TODO: implement in HTML and restyle  -->
+
+![me](/images/mario-brazing-small.jpg)
+
+- Software engineer, maker, [avid luge racer](http://www.ssbla.org)
+
+- Adventurer, traveller, explorer.
+
+- Prefers two wheels to four
+
